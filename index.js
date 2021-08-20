@@ -1,0 +1,1 @@
+console.log(document.getElementsByClassName("header")[0].style.color="red")
