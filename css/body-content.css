@@ -1,0 +1,45 @@
+.body-content {
+  padding: 100px;
+  background: rgba(110, 110, 163, 0.67);
+  margin-top: none;
+  margin-top: -10px;
+  height: 100%;
+}
+.body-content > form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.label-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.label-input > input {
+  background: white;
+  outline: none;
+  border: none;
+  color: black;
+  height: 45px;
+  width: 450px;
+  padding-left: 30px;
+  font-weight: lighter;
+}
+.label-input > button {
+  outline: none;
+  border: none;
+  height: 45px;
+  margin-left: 30px;
+  background: rgba(0, 0, 0, 0.81);
+  color: white;
+  padding: 0px 25px;
+}
+
+form > label {
+  color: white;
+  font-weight: bold;
+}
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }

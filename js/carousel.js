@@ -28,7 +28,6 @@ const moveToNextSlide = () => {
         slidePosition++;
     }
     updateSlidePosition();
-    console.log("ive been called")
 };
 const moveToPrevSlide = () => {
     if (slidePosition == 0) {
@@ -39,4 +38,3 @@ const moveToPrevSlide = () => {
     updateSlidePosition();
 };
 
-moveToNextSlide();

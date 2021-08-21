@@ -52,3 +52,18 @@
     transform: opacity linear;
   }
 }
+/* 
+#check {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 4s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+} */
