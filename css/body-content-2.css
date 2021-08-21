@@ -1,0 +1,74 @@
+.body-content-2 {
+  background-image: url("../assets/world-map-icon-design-vector-9445771\ 1.png");
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+.body-content-2 > .first {
+  display: flex;
+  flex-direction: column;
+}
+.body-content-2 > .second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.body-content-2 > .third {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.first > img {
+  height: 100px;
+  width: 100px;
+  margin-bottom: -30px;
+}
+.first > h1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.text > #text {
+  color: #41458e;
+}
+
+/* -----------------second class style--------------------------------- */
+
+.second-1 > img,
+.second-2 > img {
+  height: 70px;
+}
+.second-1 > #text {
+  font-weight: bold;
+}
+.second-1 > h2 {
+  font-size: 20px;
+}
+.second-2 > #text {
+  font-weight: bold;
+}
+.second-2 > h2 {
+  font-size: 20px;
+}
+
+/* -----------------------third class style--------------------------- */
+
+.third-1 > img,
+.third-2 > img {
+  height: 70px;
+}
+.third-1 > #text {
+  font-weight: bold;
+}
+.third-1 > h2 {
+  font-size: 20px;
+}
+.third-2 > #text {
+  font-weight: bold;
+}
+.third-2 > h2 {
+  font-size: 20px;
+}
