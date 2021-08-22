@@ -1,0 +1,20 @@
+.footer-advert {
+  background: #333333;
+  padding: 20px 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#advert{
+color: #CCA0F4;
+}
+
+#footer-advert-first{
+    color: white;
+}
+
+.footer-advert> h1{
+    font-size: 20px;
+}
