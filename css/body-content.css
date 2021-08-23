@@ -39,7 +39,3 @@ form > label {
   color: white;
   font-weight: bold;
 }
-::placeholder {
-    color: black;
-    opacity: 1; /* Firefox */
-  }
