@@ -41,7 +41,34 @@
   font-size: 27px;
 }
 
-.right-view>form{
-    display: flex;
-    flex-direction: column;
+.right-view > form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+form > input {
+  box-shadow: 4px 2px 6px 2px rgba(0, 0, 0, 0.25),
+    4px 4px 6px -17px rgba(0, 0, 0, 0.25), 0px 4px 7px -32px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  height: 40px;
+}
+form > button{
+    margin-top: 20px;
+    background: #337AB7;
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+
 }
