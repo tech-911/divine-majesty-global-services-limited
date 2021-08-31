@@ -1,0 +1,12 @@
+.signUp-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  box-shadow: 36px 31px 53px -34px rgba(51, 122, 183, 0.66);
+  height: 600px;
+  /* margin: 1035px 7770px; */
+  width: 70%;
+  /* background-color: brown; */
+}

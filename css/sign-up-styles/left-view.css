@@ -1,0 +1,77 @@
+.signUp-container > .left-view {
+  background-image: url("../../assets/left-img.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px 600px;
+  display: flex;
+  flex-direction: column;
+  /* background: #337ab7; */
+  width: 50%;
+  height: 100%;
+}
+.left-view > .left-top {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.left-view > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffff;
+  margin-bottom: 0px;
+  margin-left: 123px;
+}
+
+/* .left-top > img {
+  height: 100px;
+  width: 100px;
+} */
+.left-top > h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffff;
+  margin-left: 70px;
+}
+.left-view > .left-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.left-logo > img {
+  width: 801px;
+  height: 242px;
+}
+
+/* .left-view > .left-buttom-svg {
+  margin-top: 25%;
+} */
+
+/* .left-buttom-svg > img {
+  height: 100px;
+  width: 100px;
+} */
+
+.left-view > .left-view-buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 110px;
+  cursor: pointer;
+}
+.left-view-buttom > p {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+.left-view-buttom > img {
+  height: 65px;
+}
