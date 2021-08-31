@@ -23,6 +23,7 @@
   border-radius: 5px;
   width: 89px;
   height: 40px;
+  cursor: pointer;
 }
 .right-view-top > p {
   font-weight: 600;
@@ -58,17 +59,17 @@ form > input {
   outline: none;
   border: none;
   height: 40px;
+  padding: 20px;
 }
-form > button{
-    margin-top: 20px;
-    background: #337AB7;
-    border-radius: 6px;
-    height: 40px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-weight: bolder;
-    font-size: 15px;
-    color: white;
-
+form > button {
+  margin-top: 20px;
+  background: #337ab7;
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
 }
