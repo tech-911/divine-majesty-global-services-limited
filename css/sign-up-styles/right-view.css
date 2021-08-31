@@ -1,0 +1,47 @@
+.signUp-container > .right-view {
+  background: white;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 40px;
+}
+.right-view > .right-view-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.right-view-top > button {
+  outline: none;
+  border: none;
+  background-color: #337ab7;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 89px;
+  height: 40px;
+}
+.right-view-top > p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 50px;
+}
+
+.right-view-top > .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.title > h1 {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.right-view>form{
+    display: flex;
+    flex-direction: column;
+}
