@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/sign-up-styles/signUp-container.css" />
     <link rel="stylesheet" href="./css/sign-up-styles/left-view.css" />
     <link rel="stylesheet" href="./css/sign-up-styles/right-view.css" />
+    <link rel="stylesheet" href="./css/sign-up-styles//sign-up-responsiveness/signup-responsiveness.css" />
   </head>
   <body>
     <div class="body">
@@ -35,7 +36,7 @@
             <button>Log in</button>
           </div>
           <div class="title"><h1>Create your free account</h1></div>
-          <form action="">
+          <form action="" onsubmit="handleSubmit()">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" />
             <label for="email">Email</label>
@@ -53,5 +54,6 @@
         </div>
       </div>
     </div>
+    <script src="./js/form.js"></script>
   </body>
 </html>

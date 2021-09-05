@@ -31,7 +31,7 @@
   margin-left: 50px;
 }
 
-.right-view-top > .title {
+.right-view > .title {
   display: flex;
   flex-direction: row;
   align-items: center;

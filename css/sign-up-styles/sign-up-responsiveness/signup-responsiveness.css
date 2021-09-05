@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+  .left-view,
+  .left-view > * {
+    display: none !important;
+  }
+  .signUp-container{
+      width: 50% !important;
+      height: 100% !important;
+  }
+  .right-view{
+      width: 100% !important;
+      background-color: #fdf8f8 !important;
+  }
+}
